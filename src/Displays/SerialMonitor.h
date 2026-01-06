@@ -2,6 +2,9 @@
 #define SERIAL_MONITOR_H
 
 #include "Arduino.h"
+#include <WiFi.h>
+#include <RTClib.h>
+#include "../Core/Types.h"
 
 class ProductionLogger {
 private:
