@@ -1,0 +1,9 @@
+{
+  "ph_calibration": {
+    "ph4_voltage": 1.75,
+    "ph7_voltage": 2.05,
+    "ph10_voltage": 2.35
+  },
+  "turbidity_offset": 5.2,
+  "feed_servo_grams_per_sec": 0.5
+}
