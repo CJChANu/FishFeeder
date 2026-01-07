@@ -4,14 +4,14 @@
 #include <WiFi.h>
 #include <Firebase_ESP_Client.h>
 
-#define WIFI_SSID "Dialog-4G-DC5E"
-#define WIFI_PASSWORD "admin"
-#define API_KEY "your_firebase_web_api_key"
-#define DATABASE_URL "https://smart-fish-feeder-pro-y1s1mtr7-default-rtdb.asia-southeast1.firebasedatabase.app/"
+extern const char* WIFI_SSID;
+extern const char* WIFI_PASSWORD;
+extern const char* API_KEY;
+extern const char* DATABASE_URL;
 
-FirebaseData fbdo;
-FirebaseAuth auth;
-FirebaseConfig config;
+extern FirebaseData fbdo;
+extern FirebaseAuth auth;
+extern FirebaseConfig config;
 
 class CloudSync {
 public:

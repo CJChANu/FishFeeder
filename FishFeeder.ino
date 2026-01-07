@@ -16,7 +16,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <WiFi.h>
-/*#include <Firebase_ESP_Client.h>  // Mobizt v4.4.17 ✓*/
+#include <Firebase_ESP_Client.h>  // Mobizt v4.4.17 ✓
 #include <ESP32Servo.h>
 
 // =============================================================================
@@ -52,15 +52,6 @@ FirebaseConfig config;
 // =============================================================================
 // SYSTEM STATE
 // =============================================================================
-struct SystemState {
-  float temp_celsius = 0;
-  float ph_value = 0;
-  float turbidity_ntu = 0;
-  uint8_t quality_index = 0;
-  bool feeding_active = false;
-  bool anomaly_detected = false;
-  unsigned long uptime_seconds = 0;
-};
 
 SystemState state;
 

@@ -3,15 +3,15 @@
 
 #include <Arduino.h>
 
+// In src/Core/Types.h
 struct SystemState {
-    float temp;
-    float ph;
+    float temp_celsius;   // Changed from temp
+    float ph_value;       // Changed from ph
     float turbidity_ntu;
     uint8_t water_quality_index;
+    uint32_t uptime_seconds; // Added this missing member
     bool feeding_active;
     bool anomaly_detected;
-    uint8_t quality; // For PredictiveAlgo
-    bool alert;     // For PredictiveAlgo
 };
 
 #endif

@@ -6,15 +6,14 @@
 class ProductionWatchdog {
 public:
     void init() {
-        // Updated for ESP32 SDK 3.x+
-        esp_task_wdt_config_t twdt_config = {
-            .timeout_ms = 30000, // 30 seconds
-            .idle_handle = NULL,
-            .trigger_panic = true
-        };
-        esp_task_wdt_reconfigure(&twdt_config);
-        esp_task_wdt_add(NULL); // Add current thread (loop)
-    }
+    esp_task_wdt_config_t twdt_config = {
+        .timeout_ms = 30000,
+        .trigger_panic = true
+        // Remove .idle_handle entirely
+    };
+    esp_task_wdt_reconfigure(&twdt_config);
+    esp_task_wdt_add(NULL);
+}
 
     void feed() {
         esp_task_wdt_reset();
