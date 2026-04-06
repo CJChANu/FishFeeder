@@ -1,21 +1,114 @@
-MIT License
+SMART FISH FEEDER — CUSTOM SOURCE LICENSE
+Version 1.0, April 2026
 
-Copyright (c) 2026 CJ_ChANu
+Copyright (c) 2026 CJ ChANu (cjchanux@gmail.com)
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Project: Smart Fish Feeder v2.0
+Repository: https://github.com/CJChANu/FishFeeder
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+═══════════════════════════════════════════════════════════════════
+DEFINITIONS
+═══════════════════════════════════════════════════════════════════
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+"Software" refers to all source code, firmware, header files, configuration
+files, documentation, and associated materials in this repository.
+
+"Author" refers to CJ ChANu, the original creator and copyright holder.
+
+"You" refers to any individual or organization accessing, using, copying,
+or modifying this Software.
+
+═══════════════════════════════════════════════════════════════════
+PERMISSIONS — WHAT YOU CAN DO
+═══════════════════════════════════════════════════════════════════
+
+Subject to the conditions below, You are freely permitted to:
+
+  1. PERSONAL USE
+     Use this Software for personal, educational, or academic purposes
+     without restriction.
+
+  2. STUDY & LEARNING
+     Read, study, and learn from this codebase for your own skill development.
+
+  3. MODIFICATION (Personal)
+     Modify the Software for your own private, non-commercial use.
+
+  4. CONTRIBUTION
+     Submit improvements or bug fixes back to the original repository
+     via pull requests. Accepted contributions remain under this license.
+
+  5. REFERENCE & CITATION
+     Reference or cite this project in academic papers, articles, or
+     presentations, provided proper credit is given to the Author.
+
+═══════════════════════════════════════════════════════════════════
+RESTRICTIONS — WHAT YOU CANNOT DO
+═══════════════════════════════════════════════════════════════════
+
+The following are strictly prohibited without explicit written permission
+from the Author:
+
+  1. COMMERCIAL USE
+     You may NOT use, sell, license, or distribute this Software or any
+     derivative of it for commercial or financial gain.
+
+  2. REDISTRIBUTION
+     You may NOT redistribute copies of this Software — modified or
+     unmodified — as your own project, product, or library.
+
+  3. REBRANDING
+     You may NOT remove, alter, or obscure copyright notices, author
+     attribution, or project branding.
+
+  4. SUBLICENSING
+     You may NOT sublicense this Software to any third party under
+     any other license terms.
+
+  5. UNAUTHORIZED DEPLOYMENT
+     You may NOT deploy this Software as a hosted service, product,
+     or API endpoint for public or commercial use without written
+     consent from the Author.
+
+═══════════════════════════════════════════════════════════════════
+CONDITIONS
+═══════════════════════════════════════════════════════════════════
+
+  - Any permitted use of this Software must retain this license file
+    and the copyright notice in all copies or substantial portions.
+
+  - If you build upon this work for academic or portfolio purposes,
+    you must clearly credit: "Based on Smart Fish Feeder by CJ ChANu
+    (https://github.com/CJChANu/FishFeeder)"
+
+  - The Author reserves the right to update this license for future
+    versions of this Software.
+
+═══════════════════════════════════════════════════════════════════
+DISCLAIMER OF WARRANTY
+═══════════════════════════════════════════════════════════════════
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY — WHETHER IN CONTRACT, TORT, OR OTHERWISE — ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+This includes but is not limited to: damage to hardware, data loss,
+fish fatalities, or any harm resulting from sensor inaccuracies,
+firmware bugs, or connectivity failures.
+
+═══════════════════════════════════════════════════════════════════
+CONTACT
+═══════════════════════════════════════════════════════════════════
+
+For permissions beyond the scope of this license, collaboration
+requests, or inquiries, contact the Author:
+
+  Email : cjchanux@gmail.com
+  GitHub: https://github.com/CJChANu
+
+═══════════════════════════════════════════════════════════════════
